@@ -24,4 +24,5 @@ break;
 if (bool == 1)
 break;
 }
-
+return (i);
+}
