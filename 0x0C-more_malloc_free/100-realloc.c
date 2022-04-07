@@ -36,17 +36,17 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	{
 		free(ptr);
 		return (NULL);
-OAOAOA	}
+	}
 	if (new_size > old_size)
 		_memcpy(reaptr, ptr, old_size);
-OAOAOA	free(ptr);
+	free(ptr);
 	return (reaptr);
 }
-OAOAOA
+
 /**
  * _memcpy - function that copies memory area
  * @dest: dest positions
-OAOAOA * @src: source position
+ * * @src: source position
  * @n: size of bytes
  * Return: char
  */
